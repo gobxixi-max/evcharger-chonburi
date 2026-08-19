@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>ช่างเป้ EV ชลบุรี | ติดตั้งวงจร 2 สำหรับรถ EV</title>
-<meta name="description" content="ช่างเป้ EV ชลบุรี รับติดตั้งวงจร 2 สำหรับ EV Charger ผลงานติดตั้งกว่า 1,200 คัน พร้อมแพ็กเกจ CHINT ABB Schneider">
+<title>ช่างเป้ EV | ติดตั้งวงจร 2 สำหรับรถ EV ชลบุรี กรุงเทพฯ ปริมณฑล โคราช และภาคอีสาน</title>
+<meta name="description" content="ช่างเป้ EV รับติดตั้งวงจร 2 สำหรับ EV Charger ผลงานติดตั้งกว่า 1,200 คัน ให้บริการชลบุรี กรุงเทพฯ ปริมณฑล โคราช และพื้นที่ภาคอีสาน พร้อมแพ็กเกจ CHINT ABB Schneider">
 
 <style>
 :root{
@@ -845,6 +845,390 @@ footer strong{
     font-weight:600;
 }
 
+
+/* ===== COLOR REFRESH + TRUST ===== */
+:root{
+    --orange:#ff8a00;
+    --gold:#f4b400;
+    --pink:#ef4f91;
+    --red:#e84c4c;
+    --teal:#00a7a7;
+}
+
+body{
+    background:
+      radial-gradient(circle at 0% 0%,rgba(31,214,255,.035),transparent 22%),
+      radial-gradient(circle at 100% 12%,rgba(255,138,0,.035),transparent 22%),
+      #fff;
+}
+
+.brand-top{
+    background:linear-gradient(100deg,#031b33 0%,#07517f 27%,#50358b 56%,#a84068 78%,#59321b 100%);
+    background-size:180% 100%;
+    animation:brandShift 12s ease-in-out infinite alternate;
+}
+@keyframes brandShift{
+    from{background-position:0% 50%}
+    to{background-position:100% 50%}
+}
+
+.contact-zone{
+    background:
+      radial-gradient(circle at 8% 10%,rgba(255,188,59,.12),transparent 22%),
+      radial-gradient(circle at 92% 90%,rgba(239,79,145,.08),transparent 24%),
+      linear-gradient(180deg,#fffdf8,#edf8ff);
+}
+
+.hero{
+    background:
+      radial-gradient(circle at 90% 13%,rgba(239,79,145,.12),transparent 24%),
+      radial-gradient(circle at 72% 83%,rgba(255,161,26,.12),transparent 26%),
+      radial-gradient(circle at 7% 82%,rgba(31,214,255,.16),transparent 28%),
+      radial-gradient(circle at 28% 8%,rgba(109,87,233,.11),transparent 24%),
+      linear-gradient(135deg,#fff,#f3fbff 45%,#fff9f2);
+}
+.hero h1 strong{
+    background:linear-gradient(90deg,#056ed8,#6d57e9,#ef4f91,#f28d13);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
+.service-chip{
+    background:linear-gradient(90deg,#e7faff,#fff5dd,#f7efff);
+    border-color:#a6dce8;
+    box-shadow:0 8px 22px rgba(16,75,104,.08);
+}
+.hero-desc{
+    max-width:660px;
+    padding-right:10px;
+}
+.hero-trust{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:14px 0 3px;
+}
+.hero-trust span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:7px 10px;
+    border-radius:999px;
+    border:1px solid rgba(7,83,125,.13);
+    background:rgba(255,255,255,.78);
+    box-shadow:0 7px 20px rgba(13,61,92,.07);
+    color:#17445e;
+    font-size:14px;
+    font-weight:700;
+}
+.hero-trust span:nth-child(1){border-color:#8ddbec;background:#effcff}
+.hero-trust span:nth-child(2){border-color:#e2c9ff;background:#faf5ff}
+.hero-trust span:nth-child(3){border-color:#ffd499;background:#fff9ef}
+
+.quick-item:nth-child(1){background:linear-gradient(180deg,#f3fcff,#fff)}
+.quick-item:nth-child(2){background:linear-gradient(180deg,#faf5ff,#fff)}
+.quick-item:nth-child(3){background:linear-gradient(180deg,#fff7ed,#fff)}
+.quick-item:nth-child(4){background:linear-gradient(180deg,#effcf6,#fff)}
+.quick-item:nth-child(2) .quick-main{color:#7a55df}
+.quick-item:nth-child(3) .quick-main{color:#e77817}
+.quick-item:nth-child(4) .quick-main{color:#079d58}
+
+/* ===== SERVICE AREAS ===== */
+.area-section{
+    position:relative;
+    overflow:hidden;
+    background:
+      radial-gradient(circle at 0% 15%,rgba(31,214,255,.10),transparent 24%),
+      radial-gradient(circle at 100% 20%,rgba(255,138,0,.11),transparent 27%),
+      radial-gradient(circle at 80% 100%,rgba(239,79,145,.08),transparent 28%),
+      linear-gradient(180deg,#ffffff,#f8fbff);
+}
+.area-section::before{
+    content:"";
+    position:absolute;
+    width:280px;
+    height:280px;
+    left:-160px;
+    bottom:-160px;
+    border:1px solid rgba(5,120,232,.10);
+    border-radius:50%;
+    box-shadow:0 0 0 42px rgba(5,120,232,.025),0 0 0 84px rgba(109,87,233,.02);
+}
+.area-head{
+    display:flex;
+    justify-content:space-between;
+    gap:22px;
+    align-items:end;
+    margin-bottom:24px;
+}
+.area-kicker{
+    display:inline-flex;
+    padding:6px 11px;
+    margin-bottom:7px;
+    border-radius:999px;
+    background:#082f53;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:.2px;
+}
+.area-mini{
+    max-width:330px;
+    padding:11px 14px;
+    border-radius:12px;
+    background:#fff;
+    border:1px solid #d9e8ef;
+    box-shadow:0 10px 28px rgba(14,59,88,.07);
+    color:#315367;
+    font-size:14px;
+    line-height:1.6;
+    font-weight:600;
+}
+.area-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+}
+.area-card{
+    position:relative;
+    overflow:hidden;
+    min-height:190px;
+    padding:22px;
+    border-radius:18px;
+    color:#fff;
+    box-shadow:0 18px 38px rgba(12,58,89,.13);
+    transition:transform .28s ease,box-shadow .28s ease;
+}
+.area-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 24px 48px rgba(12,58,89,.17);
+}
+.area-card::before,
+.area-card::after{
+    content:"";
+    position:absolute;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.24);
+}
+.area-card::before{width:150px;height:150px;right:-70px;top:-68px}
+.area-card::after{width:86px;height:86px;right:-28px;top:-26px}
+.area-card.chonburi{background:linear-gradient(145deg,#006fb9,#11a6db)}
+.area-card.bangkok{background:linear-gradient(145deg,#5a42c7,#9b5ee8)}
+.area-card.korat{background:linear-gradient(145deg,#e87517,#f5ae27)}
+.area-card.isan{background:linear-gradient(145deg,#058755,#10b873)}
+.area-icon{
+    display:grid;
+    place-items:center;
+    width:48px;
+    height:48px;
+    margin-bottom:17px;
+    border-radius:14px;
+    background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.22);
+    font-size:25px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.22);
+}
+.area-card h3{
+    position:relative;
+    z-index:2;
+    margin:0;
+    color:#fff;
+    font-size:24px;
+    line-height:1.35;
+}
+.area-card p{
+    position:relative;
+    z-index:2;
+    margin:7px 0 0;
+    color:rgba(255,255,255,.92);
+    font-size:15.5px;
+    line-height:1.65;
+}
+.area-live{
+    position:absolute;
+    right:17px;
+    bottom:17px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:0 0 0 7px rgba(255,255,255,.13);
+    animation:areaPulse 1.8s ease-in-out infinite;
+}
+@keyframes areaPulse{
+    0%,100%{transform:scale(.8);opacity:.7}
+    50%{transform:scale(1.18);opacity:1}
+}
+
+/* ===== FIRST-TIME FLOW ===== */
+.first-time-section{
+    background:
+      radial-gradient(circle at 7% 8%,rgba(255,138,0,.08),transparent 25%),
+      radial-gradient(circle at 94% 84%,rgba(109,87,233,.08),transparent 25%),
+      #fffaf5;
+}
+.first-time-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-top:23px;
+}
+.first-step{
+    position:relative;
+    padding:23px 21px;
+    border-radius:16px;
+    background:#fff;
+    border:1px solid #eadfd3;
+    box-shadow:0 14px 32px rgba(82,52,22,.08);
+}
+.first-step::before{
+    content:attr(data-step);
+    position:absolute;
+    right:15px;
+    top:13px;
+    color:rgba(7,53,92,.08);
+    font-size:54px;
+    font-weight:800;
+    line-height:1;
+}
+.first-step:nth-child(1){border-top:5px solid #0ba6d7}
+.first-step:nth-child(2){border-top:5px solid #f08b1a}
+.first-step:nth-child(3){border-top:5px solid #7959e4}
+.first-step-icon{font-size:30px;margin-bottom:8px}
+.first-step h3{margin:0;color:#0b385e;font-size:21px;line-height:1.45}
+.first-step p{margin:7px 0 0;color:#38586b;font-size:16px;line-height:1.72}
+
+/* ===== CREDIBILITY / READABILITY REFRESH ===== */
+.explain-card .glow-inner{
+    background:
+      radial-gradient(circle at 100% 0%,rgba(255,179,53,.10),transparent 27%),
+      #fff;
+}
+.explain-lead{
+    margin:0 0 14px;
+    color:#244a62;
+    font-size:18px;
+    line-height:1.85;
+}
+.explain-list{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:11px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.explain-list li{
+    padding:14px 14px 14px 43px;
+    position:relative;
+    border-radius:12px;
+    border:1px solid #d7e6ed;
+    background:#f9fcfe;
+    color:#29495f;
+    font-size:15.5px;
+    line-height:1.65;
+}
+.explain-list li::before{
+    content:"✓";
+    position:absolute;
+    left:14px;
+    top:14px;
+    display:grid;
+    place-items:center;
+    width:21px;
+    height:21px;
+    border-radius:50%;
+    color:#fff;
+    background:linear-gradient(135deg,#0a8fe8,#6b57e5);
+    font-size:12px;
+    font-weight:800;
+}
+.info-section{
+    background:
+      radial-gradient(circle at 8% 88%,rgba(255,138,0,.07),transparent 24%),
+      linear-gradient(180deg,#f4f9fc,#fffaf5);
+}
+.meter-card.warning{border-top-color:#ef6b4a}
+.meter-card.success{border-top-color:#05a870}
+.package-section{
+    background:
+      radial-gradient(circle at 92% 2%,rgba(239,79,145,.08),transparent 28%),
+      radial-gradient(circle at 3% 100%,rgba(255,138,0,.08),transparent 28%),
+      linear-gradient(180deg,#eef8fd,#f8f4ff);
+}
+.work-section{
+    background:
+      radial-gradient(circle at 100% 5%,rgba(255,159,28,.06),transparent 24%),
+      #fff;
+}
+.work-trust{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:14px;
+}
+.work-trust span{
+    padding:7px 10px;
+    border-radius:999px;
+    background:#f4f9fc;
+    border:1px solid #d7e5ec;
+    color:#30546a;
+    font-size:14px;
+    font-weight:700;
+}
+.facebook-section{
+    background:
+      radial-gradient(circle at 6% 10%,rgba(24,119,242,.10),transparent 27%),
+      radial-gradient(circle at 94% 86%,rgba(239,79,145,.06),transparent 26%),
+      linear-gradient(180deg,#eef8ff,#fff);
+}
+.final-section{
+    background:linear-gradient(180deg,#fff,#fff8ef);
+}
+.final-card{
+    border-color:#d8c7f1;
+    background:
+      radial-gradient(circle at 92% 0%,rgba(239,79,145,.10),transparent 31%),
+      radial-gradient(circle at 8% 100%,rgba(255,150,35,.09),transparent 28%),
+      linear-gradient(120deg,#eaf8ff,#fff,#fff7ed);
+}
+
+button:focus-visible,a:focus-visible{
+    outline:3px solid #ffb62d;
+    outline-offset:3px;
+}
+
+@media(max-width:900px){
+    .area-grid{grid-template-columns:repeat(2,1fr)}
+    .first-time-grid{grid-template-columns:1fr}
+    .explain-list{grid-template-columns:1fr}
+}
+
+@media(max-width:700px){
+    .hero-trust{gap:6px}
+    .hero-trust span{font-size:13px;padding:6px 8px}
+    .area-head{display:block}
+    .area-mini{margin-top:12px;max-width:none}
+    .area-grid{grid-template-columns:1fr 1fr;gap:9px}
+    .area-card{min-height:176px;padding:17px 14px;border-radius:14px}
+    .area-icon{width:42px;height:42px;margin-bottom:13px;font-size:22px}
+    .area-card h3{font-size:20px}
+    .area-card p{font-size:14px;line-height:1.55}
+    .area-live{right:12px;bottom:12px}
+    .first-step{padding:20px 18px}
+    .first-step h3{font-size:20px}
+    .first-step p{font-size:16px}
+}
+
+@media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{
+        scroll-behavior:auto !important;
+        animation-duration:.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:.01ms !important;
+    }
+}
+
 /* ===== MOBILE ===== */
 @media(max-width:700px){
     body{
@@ -1107,7 +1491,7 @@ footer strong{
 
 <div class="brand-top">
     <div class="container brand-top-inner">
-        ⚡ <strong>ช่างเป้ EV ชลบุรี</strong>&nbsp; • &nbsp;รับติดตั้งวงจร 2 สำหรับรถ EV&nbsp; • &nbsp;ผลงานกว่า 1,200 คัน
+        ⚡ <strong>ช่างเป้ EV</strong>&nbsp; • &nbsp;ชลบุรี&nbsp; • &nbsp;กรุงเทพฯ–ปริมณฑล&nbsp; • &nbsp;โคราช–ภาคอีสาน&nbsp; • &nbsp;ผลงานกว่า 1,200 คัน
     </div>
 </div>
 
@@ -1170,9 +1554,20 @@ footer strong{
             <div class="brand-rail"></div>
 
             <h1>
-                ชลบุรี รับติดตั้ง
-                <strong>วงจร 2 สำหรับ EV Charger</strong>
+                รับติดตั้ง <strong>วงจร 2 สำหรับ EV Charger</strong>
             </h1>
+
+            <p class="hero-desc">
+                ดูแพ็กเกจ ราคา พื้นที่ให้บริการ และผลงานติดตั้งจริงได้ในหน้าเดียว
+                พร้อมส่งรูปหน้างานให้ประเมินเบื้องต้นฟรีก่อนตัดสินใจ
+            </p>
+
+            <div class="hero-trust" aria-label="จุดเด่นบริการ">
+                <span>✓ มีแพ็กเกจให้เทียบ</span>
+                <span>✓ มีภาพผลงานจริง</span>
+                <span>✓ ประเมินเบื้องต้นฟรี</span>
+            </div>
+
             <div class="proof">
                 <strong>1,200+ คัน</strong>
                 <span>ผลงานติดตั้งรถ EV<br>และงานระบบวงจรชาร์จ</span>
@@ -1184,7 +1579,7 @@ footer strong{
                 <div class="glow-inner">
                     <img
                         src="images/hero.jpg"
-                        onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1400&q=90';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                         alt="ช่างเป้ EV ชลบุรี">
                 </div>
             </div>
@@ -1214,19 +1609,90 @@ footer strong{
     </div>
 </div>
 
+<section class="section area-section" id="service-areas">
+    <div class="container">
+        <div class="area-head">
+            <div>
+                <div class="area-kicker">พื้นที่ให้บริการ</div>
+                <h2 class="section-title">เช็กพื้นที่ก่อนนัด <span>ติดตั้งได้เลย</span></h2>
+                <p class="section-desc">รับงานหลายพื้นที่ ส่งรูปหน้างานให้ประเมินเบื้องต้นก่อนนัดวันติดตั้งได้</p>
+            </div>
+            <div class="area-mini">📍 ไม่แน่ใจว่าอยู่ในพื้นที่หรือไม่? ทัก Facebook หรือ LINE พร้อมส่งพิกัด/ชื่ออำเภอให้ช่างเช็กก่อนได้</div>
+        </div>
+
+        <div class="area-grid">
+            <article class="area-card chonburi">
+                <div class="area-icon">🌊</div>
+                <h3>ชลบุรี</h3>
+                <p>รับประเมินและนัดติดตั้งในพื้นที่ชลบุรี</p>
+                <span class="area-live" aria-hidden="true"></span>
+            </article>
+
+            <article class="area-card bangkok">
+                <div class="area-icon">🏙️</div>
+                <h3>กรุงเทพฯ–ปริมณฑล</h3>
+                <p>รองรับงานกรุงเทพฯ และพื้นที่ปริมณฑล</p>
+                <span class="area-live" aria-hidden="true"></span>
+            </article>
+
+            <article class="area-card korat">
+                <div class="area-icon">⚡</div>
+                <h3>โคราช</h3>
+                <p>รับประเมินหน้างานและนัดคิวติดตั้งในโคราช</p>
+                <span class="area-live" aria-hidden="true"></span>
+            </article>
+
+            <article class="area-card isan">
+                <div class="area-icon">🧭</div>
+                <h3>พื้นที่ภาคอีสาน</h3>
+                <p>ส่งชื่อจังหวัด/อำเภอให้เช็กคิวและพื้นที่ให้บริการก่อนได้</p>
+                <span class="area-live" aria-hidden="true"></span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section first-time-section">
+    <div class="container">
+        <h2 class="section-title">ใช้บริการครั้งแรก <span>เริ่มยังไง?</span></h2>
+        <p class="section-desc">ไม่ต้องรู้ศัพท์ระบบไฟทั้งหมด แค่ส่งข้อมูลหน้างานให้ช่างช่วยดูเบื้องต้นก่อน</p>
+
+        <div class="first-time-grid">
+            <article class="first-step" data-step="01">
+                <div class="first-step-icon">📷</div>
+                <h3>ส่งรูปหน้างาน</h3>
+                <p>ส่งรูปมิเตอร์ ตู้ไฟ และจุดที่ต้องการติดตั้งผ่าน Facebook หรือ LINE</p>
+            </article>
+
+            <article class="first-step" data-step="02">
+                <div class="first-step-icon">🔎</div>
+                <h3>ประเมินเบื้องต้น</h3>
+                <p>ช่างช่วยดูรูปและแนะนำแนวทาง รวมถึงแพ็กเกจที่เหมาะกับหน้างานเบื้องต้น</p>
+            </article>
+
+            <article class="first-step" data-step="03">
+                <div class="first-step-icon">📅</div>
+                <h3>นัดวันติดตั้ง</h3>
+                <p>เมื่อรายละเอียดลงตัว ค่อยนัดวันและพื้นที่เข้าติดตั้งให้ชัดเจนก่อนเริ่มงาน</p>
+            </article>
+        </div>
+    </div>
+</section>
+
 <section class="section explain-section">
     <div class="container">
         <div class="explain-card glow-wrap">
             <div class="glow-inner">
-                <h3>ทำไมติด EV Charger ต้องทำ "วงจร 2" ?</h3>
-                <p>
-                    เพราะเครื่องชาร์จรถ EV กินไฟหนักมากครับ! ถ้าเอาไปพ่วงกับระบบไฟเดิมของตัวบ้าน แอร์ตัด ไฟตก หรือเบรกเกอร์เด้งแน่นอน
-"วงจร 2" คือการเดินระบบไฟชุดใหม่ทั้งหมดแยกออกมาต่างหากเพื่อรถ EV คันเก่งของคุณโดยเฉพาะ สิ่งที่คุณจะได้คือ:
-ตู้ไฟและเบรกเกอร์ชุดใหม่ แยกจากตู้ไฟบ้าน
-สายไฟเส้นใหญ่ ที่ทนความร้อนสำหรับการชาร์จรถโดยเฉพาะ
-ระบบสายดินใหม่ ตอกแท่งกราวด์ลึกถึงชั้นดิน เพื่อป้องกันไฟดูด 100%
-สรุปสั้นๆ คือ ทำเพื่อ "ความปลอดภัยของคนในบ้าน และให้รถชาร์จได้เต็มกำลังแบบไฟไม่ตก" นั่นเองครับ!
+                <h3>ทำไมติด EV Charger จึงควรแยก "วงจร 2" ?</h3>
+                <p class="explain-lead">
+                    EV Charger เป็นโหลดไฟฟ้าที่ใช้งานต่อเนื่องเป็นเวลานาน การแยกวงจรสำหรับเครื่องชาร์จโดยเฉพาะ
+                    ช่วยให้ตรวจสอบอุปกรณ์และโหลดของระบบชาร์จได้ชัดเจนกว่าการนำไปพ่วงกับวงจรใช้งานทั่วไปของบ้าน
                 </p>
+                <ul class="explain-list">
+                    <li><strong>วงจรแยกชัดเจน</strong><br>มีตู้ไฟและเบรกเกอร์สำหรับชุดชาร์จโดยเฉพาะ</li>
+                    <li><strong>เลือกอุปกรณ์ตามหน้างาน</strong><br>ประเมินสายไฟ ระยะเดินสาย และโหลดก่อนติดตั้ง</li>
+                    <li><strong>ตรวจระบบสายดิน</strong><br>จัดระบบสายดินและจุดติดตั้งให้เหมาะกับงานชาร์จรถ EV</li>
+                </ul>
             </div>
         </div>
 
@@ -1251,19 +1717,19 @@ footer strong{
             <div class="meter-card warning">
                 <div class="meter-head">❌ มิเตอร์เดิม 15/45A</div>
                 <ul class="meter-list">
-                    <li><strong>ใช้ไฟเยอะเกินกำลัง:</strong> เครื่องชาร์จ EV ทั่วไปใช้ไฟสูงสุดถึง 32A ซึ่งกินไฟเกือบเต็มความจุมิเตอร์เดิมแล้ว</li>
-                    <li><strong>เสี่ยงเบรกเกอร์ทริป (ไฟตัด):</strong> หากชาร์จรถ EV พร้อมกับเปิดแอร์หรือใช้เครื่องใช้ไฟฟ้าอื่นๆ ไฟจะไม่พอและตัดทันที</li>
-                    <li><strong>ไม่แนะนำ:</strong> เสี่ยงเกิดความร้อนสะสมที่สายไฟ เป็นอันตรายต่อระบบไฟโดยรวมในบ้าน</li>
+                    <li><strong>ต้องดูโหลดรวมของบ้าน:</strong> หากใช้ EV Charger กำลังสูงพร้อมเครื่องใช้ไฟฟ้าหลายอย่าง โหลดรวมอาจเข้าใกล้หรือเกินพิกัดที่ใช้งานอยู่</li>
+                    <li><strong>อาจเกิดไฟตัด/เบรกเกอร์ทริป:</strong> ขึ้นอยู่กับกำลังชาร์จ โหลดอื่นในบ้าน และสภาพระบบไฟเดิม จึงควรประเมินก่อนติดตั้ง</li>
+                    <li><strong>ควรตรวจหน้างาน:</strong> เช็กขนาดสายเมน อุปกรณ์ป้องกัน และเงื่อนไขของการไฟฟ้าก่อนเลือกวิธีติดตั้ง</li>
                 </ul>
             </div>
             
             <!-- การ์ดฝั่งขวา: คำแนะนำสิ่งที่ควรทำ -->
             <div class="meter-card success">
-                <div class="meter-head">✅ อัปเกรด 30/100A หรือ TOU 30/100A</div>
+                <div class="meter-head">✅ ประเมิน 30/100A หรือ TOU ตามหน้างาน</div>
                 <ul class="meter-list">
-                    <li><strong>ปลอดภัย 100%:</strong> รองรับการชาร์จรถ EV ได้เต็มกำลัง โดยที่ไฟยังเหลือพอสำหรับใช้งานในบ้านแบบสบายๆ</li>
-                    <li><strong>แยกวงจรชัดเจน:</strong> การเดินสายวงจร 2 แยกออกจากระบบไฟบ้านเดิม ช่วยยืดอายุการใช้งานของอุปกรณ์</li>
-                    <li><strong>ประหยัดค่าไฟ:</strong> หากขอเป็นมิเตอร์ TOU (ขอมิเตอร์ที่ 2) ชาร์จรถช่วงกลางคืน (Off-Peak) ค่าไฟจะถูกลงกว่าครึ่ง!</li>
+                    <li><strong>รองรับโหลดได้มากขึ้น:</strong> การอัปเกรดมิเตอร์และระบบที่เกี่ยวข้องควรพิจารณาจากกำลังชาร์จ โหลดบ้าน และข้อกำหนดของการไฟฟ้า</li>
+                    <li><strong>แยกวงจรชัดเจน:</strong> ทำให้อุปกรณ์ของชุดชาร์จและจุดตัดวงจรถูกแยกจากวงจรใช้งานทั่วไปของบ้านอย่างเป็นระบบ</li>
+                    <li><strong>TOU เป็นอีกทางเลือก:</strong> การชาร์จในช่วง Off-Peak อาจช่วยลดค่าไฟได้ โดยอัตราจริงขึ้นอยู่กับประเภทมิเตอร์และช่วงเวลาที่ใช้งาน</li>
                 </ul>
             </div>
         </div>  
@@ -1278,6 +1744,7 @@ footer strong{
         <div class="package-heading">
             <h2 class="section-title">แพ็กเกจติดตั้ง <span>วงจร 2</span></h2>
             <p class="section-desc">
+                เปรียบเทียบ 3 ระดับตามงบและรูปแบบการใช้งาน แล้วส่งรูปหน้างานให้ช่างช่วยประเมินก่อนเลือกแพ็กเกจได้
             </p>
         </div>
 
@@ -1290,7 +1757,7 @@ footer strong{
                             <img
                                 src="images/package-chint.jpg"
                                 loading="lazy"
-                                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%88%20CHINT%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                                 alt="แพ็กเกจ CHINT">
                             <div class="package-image-shade"></div>
                             <div class="package-name">CHINT</div>
@@ -1333,7 +1800,7 @@ footer strong{
                             <img
                                 src="images/package-abb.jpg"
                                 loading="lazy"
-                                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=900&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%88%20ABB%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                                 alt="แพ็กเกจ ABB">
                             <div class="package-image-shade"></div>
                             <div class="package-name">ABB</div>
@@ -1374,7 +1841,7 @@ footer strong{
                             <img
                                 src="images/package-schneider.jpg"
                                 loading="lazy"
-                                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%88%20Schneider%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                                 alt="แพ็กเกจ Schneider Classic">
                             <div class="package-image-shade"></div>
                             <div class="package-name">Schneider Classic</div>
@@ -1419,6 +1886,12 @@ footer strong{
 
         <div class="work-help">👆 แตะรูปเพื่อดูภาพใหญ่</div>
 
+        <div class="work-trust">
+            <span>📷 มีภาพผลงานในหน้าเว็บ</span>
+            <span>🔍 เปิดดูภาพใหญ่ได้</span>
+            <span>💬 ดูโพสต์ล่าสุดต่อได้ที่ Facebook</span>
+        </div>
+
         <div class="work-grid">
 
             <div class="work-card" onclick="openLightbox(0)">
@@ -1427,7 +1900,7 @@ footer strong{
                         <img
                             src="images/work-01.jpg"
                             loading="lazy"
-                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=1100&q=90';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                             alt="ผลงานติดตั้ง 1">
                         <div class="work-label">🔍 ดูรูปใหญ่</div>
                     </div>
@@ -1440,7 +1913,7 @@ footer strong{
                         <img
                             src="images/work-02.jpg"
                             loading="lazy"
-                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=900&q=90';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                             alt="ผลงานติดตั้ง 2">
                         <div class="work-label">🔍 ดูรูปใหญ่</div>
                     </div>
@@ -1453,7 +1926,7 @@ footer strong{
                         <img
                             src="images/work-03.jpg"
                             loading="lazy"
-                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=900&q=90';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                             alt="ผลงานติดตั้ง 3">
                         <div class="work-label">🔍 ดูรูปใหญ่</div>
                     </div>
@@ -1466,7 +1939,7 @@ footer strong{
                         <img
                             src="images/work-04.jpg"
                             loading="lazy"
-                            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=900&q=90';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                             alt="ผลงานติดตั้ง 4">
                         <div class="work-label">🔍 ดูรูปใหญ่</div>
                     </div>
@@ -1481,7 +1954,7 @@ footer strong{
                 <div class="glow-inner">
                     <img src="images/work-05.jpg"
                          loading="lazy"
-                         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=800&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                          alt="ผลงานติดตั้ง 5">
                 </div>
             </div>
@@ -1490,7 +1963,7 @@ footer strong{
                 <div class="glow-inner">
                     <img src="images/work-06.jpg"
                          loading="lazy"
-                         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1597404294360-feeeda04612e?auto=format&fit=crop&w=800&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                          alt="ผลงานติดตั้ง 6">
                 </div>
             </div>
@@ -1499,7 +1972,7 @@ footer strong{
                 <div class="glow-inner">
                     <img src="images/work-07.jpg"
                          loading="lazy"
-                         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=800&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                          alt="ผลงานติดตั้ง 7">
                 </div>
             </div>
@@ -1508,7 +1981,7 @@ footer strong{
                 <div class="glow-inner">
                     <img src="images/work-08.jpg"
                          loading="lazy"
-                         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&w=800&q=85';"
+                         onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23e9f7ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f6efff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2255%22%20y%3D%2255%22%20width%3D%221090%22%20height%3D%22690%22%20rx%3D%2228%22%20fill%3D%22none%22%20stroke%3D%22%239fc9dc%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%2014%22%2F%3E%3Ctext%20x%3D%22600%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2244%22%20font-weight%3D%22700%22%20fill%3D%22%2328536b%22%3E%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%3C%2Ftext%3E%3Ctext%20x%3D%22600%22%20y%3D%22445%22%20text-anchor%3D%22middle%22%20font-family%3D%22Tahoma%2CArial%2Csans-serif%22%20font-size%3D%2225%22%20fill%3D%22%23607d8d%22%3E%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%A5%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%20images%3C%2Ftext%3E%3C%2Fsvg%3E';"
                          alt="ผลงานติดตั้ง 8">
                 </div>
             </div>
@@ -1538,8 +2011,9 @@ footer strong{
             <div class="glow-wrap violet">
                 <div class="glow-inner facebook-box">
 
-                    <!-- เปลี่ยน YOURPAGE เป็นชื่อ Facebook Page จริง -->
+                    <!-- Facebook Page Plugin -->
                     <iframe
+                        title="Facebook ช่างเป้ EV"
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fev.charger.chonburi.th&tabs=timeline&width=500&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
                         width="500"
                         height="650"
@@ -1609,8 +2083,9 @@ footer strong{
 </section>
 
 <footer>
-    <strong>ช่างเป้ EV ชลบุรี</strong>
+    <strong>ช่างเป้ EV</strong>
     รับติดตั้งวงจร 2 สำหรับ EV Charger<br>
+    ชลบุรี • กรุงเทพฯ–ปริมณฑล • โคราช • พื้นที่ภาคอีสาน<br>
     โทร 081-160-8864
 </footer>
 
@@ -1627,7 +2102,7 @@ footer strong{
         </div>
     </a>
 
-    <a class="glow-wrap violet" href="https://m.me/YOURPAGE">
+    <a class="glow-wrap violet" href="https://m.me/ev.charger.chonburi.th">
         <div class="glow-inner contact-body facebook">
             <span class="runner"></span>
             <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -1652,14 +2127,14 @@ footer strong{
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightboxBackground(event)">
-    <button class="lightbox-close" onclick="closeLightbox()">×</button>
+    <button class="lightbox-close" type="button" aria-label="ปิดภาพ" onclick="closeLightbox()">×</button>
 
     <div class="lightbox-content">
-        <button class="lightbox-prev" onclick="previousImage(event)">‹</button>
+        <button class="lightbox-prev" type="button" aria-label="ภาพก่อนหน้า" onclick="previousImage(event)">‹</button>
 
         <img class="lightbox-image" id="lightboxImage" src="" alt="ผลงานติดตั้ง ช่างเป้ EV">
 
-        <button class="lightbox-next" onclick="nextImage(event)">›</button>
+        <button class="lightbox-next" type="button" aria-label="ภาพถัดไป" onclick="nextImage(event)">›</button>
     </div>
 
     <div class="lightbox-counter" id="lightboxCounter">1 / 8</div>
@@ -1676,8 +2151,12 @@ function getGalleryImages(){
 
 function openLightbox(index){
     const images = getGalleryImages();
+    if(!images.length || !images[index]) return;
+
     currentImageIndex = index;
-    document.getElementById('lightboxImage').src = images[index].src;
+    const lightboxImage = document.getElementById('lightboxImage');
+    lightboxImage.src = images[index].currentSrc || images[index].src;
+    lightboxImage.alt = images[index].alt || 'ผลงานติดตั้ง ช่างเป้ EV';
     document.getElementById('lightbox').classList.add('active');
     document.body.style.overflow = 'hidden';
     updateCounter();
@@ -1691,17 +2170,23 @@ function closeLightbox(){
 function nextImage(event){
     if(event) event.stopPropagation();
     const images = getGalleryImages();
+    if(!images.length) return;
     currentImageIndex = (currentImageIndex + 1) % images.length;
-    document.getElementById('lightboxImage').src = images[currentImageIndex].src;
+    const lightboxImage = document.getElementById('lightboxImage');
+    lightboxImage.src = images[currentImageIndex].currentSrc || images[currentImageIndex].src;
+    lightboxImage.alt = images[currentImageIndex].alt || 'ผลงานติดตั้ง ช่างเป้ EV';
     updateCounter();
 }
 
 function previousImage(event){
     if(event) event.stopPropagation();
     const images = getGalleryImages();
+    if(!images.length) return;
     currentImageIndex--;
     if(currentImageIndex < 0) currentImageIndex = images.length - 1;
-    document.getElementById('lightboxImage').src = images[currentImageIndex].src;
+    const lightboxImage = document.getElementById('lightboxImage');
+    lightboxImage.src = images[currentImageIndex].currentSrc || images[currentImageIndex].src;
+    lightboxImage.alt = images[currentImageIndex].alt || 'ผลงานติดตั้ง ช่างเป้ EV';
     updateCounter();
 }
 
@@ -1716,6 +2201,9 @@ function closeLightboxBackground(event){
 }
 
 document.addEventListener('keydown',function(event){
+    const lightbox = document.getElementById('lightbox');
+    if(!lightbox.classList.contains('active')) return;
+
     if(event.key === 'Escape') closeLightbox();
     if(event.key === 'ArrowRight') nextImage();
     if(event.key === 'ArrowLeft') previousImage();
