@@ -2012,6 +2012,89 @@ button:focus-visible,a:focus-visible{
  .promo-image-link{border-radius:9px}
  .promo-feature figcaption{font-size:11.5px;margin:9px 3px 0}
 }
+
+/* ===== FACEBOOK TIMELINE (mobile-first, clean and responsive) ===== */
+.facebook-grid {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.facebook-feed-heading {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.facebook-feed-heading .section-desc {
+    margin: 6px auto 0;
+    max-width: 560px;
+    font-size: 16px;
+    line-height: 1.65;
+}
+.facebook-feed-actions {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 17px;
+}
+.facebook-view-all {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 50px;
+    padding: 11px 23px;
+    border-radius: 10px;
+    background: #1769d5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    box-shadow: 0 9px 23px rgba(24,119,242,.18);
+}
+.facebook-view-all:hover { background: #105bbd; }
+.fb-embed-shell {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.facebook-box { padding: 14px 8px; }
+.fb-frame-host {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px; /* Facebook Page Plugin maximum supported width */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.facebook-box .fb-timeline-frame {
+    display: block;
+    flex: 0 0 auto;
+    width: min(100%, 500px);
+    max-width: 500px;
+    height: 940px;
+    min-height: 820px;
+    border: 0;
+    margin: 0 auto;
+    background: #fff;
+}
+.fb-external-note {
+    max-width: 550px;
+    margin: 13px auto 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.65;
+    color: #4b6475;
+}
+.fb-external-note a { color: #086ed8; font-weight: 700; }
+@media (max-width: 700px) {
+    .facebook-grid { max-width: 100%; }
+    .facebook-feed-heading { margin-bottom: 12px; }
+    .facebook-feed-heading .section-desc { font-size: 15px; line-height: 1.65; }
+    .facebook-feed-actions { margin: 11px 0 15px; }
+    .facebook-view-all { width: 100%; max-width: 500px; font-size: 16px; }
+    .facebook-box { padding: 7px 5px; }
+    .facebook-box .fb-timeline-frame { height: 850px; min-height: 850px; }
+    .fb-external-note { font-size: 13px; padding: 0 5px; }
+}
+
 </style>
 </head>
 
@@ -2527,44 +2610,38 @@ button:focus-visible,a:focus-visible{
     </div>
 </section>
 
-<section class="section facebook-section">
+<section class="section facebook-section" id="facebook-updates" aria-labelledby="facebook-updates-title">
     <div class="container">
-
         <div class="facebook-grid">
-
-            <div>
-                <h2 class="section-title">ดูผลงานล่าสุดจาก <span>Facebook</span></h2>
-
-                <p class="section-desc">
-                    ดูโพสต์ รูปหน้างาน และความเคลื่อนไหวล่าสุดของช่างเป้ EV
-                    ได้จากหน้าเว็บไซต์นี้
-                </p>
-
-                <div class="fb-tip">
-                    👇 เลื่อนดูโพสต์ภายในกรอบ Facebook ได้เลย
+            <header class="facebook-feed-heading">
+                <h2 class="section-title" id="facebook-updates-title">ติดตามผลงานล่าสุดบน <span>Facebook</span></h2>
+                <p class="section-desc">ดูโพสต์และรูปผลงานจากเพจช่างเป้ EV เลื่อนดูในกรอบด้านล่างได้เมื่อ Facebook แสดงฟีด</p>
+                <div class="facebook-feed-actions">
+                    <a class="facebook-view-all"
+                       href="https://www.facebook.com/ev.charger.chonburi.th"
+                       target="_blank" rel="noopener noreferrer">ดูโพสต์ทั้งหมดบน Facebook</a>
                 </div>
-            </div>
-
-            <div class="glow-wrap violet">
+            </header>
+            <div class="fb-embed-shell glow-wrap violet">
                 <div class="glow-inner facebook-box">
-
-                    <!-- Facebook Page Plugin -->
-                    <iframe
-                        title="Facebook ช่างเป้ EV"
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fev.charger.chonburi.th&tabs=timeline&width=500&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
-                        width="500"
-                        height="650"
-                        style="border:none;overflow:hidden"
-                        scrolling="yes"
-                        frameborder="0"
-                        allowfullscreen="true"
-                        loading="lazy"
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                    </iframe>
-
+                    <div class="fb-frame-host" id="fb-frame-host">
+                        <!-- กรอบ Timeline นี้ปรับขนาดตามหน้าจอด้วยสคริปต์ fbResponsiveTimeline() -->
+                        <iframe
+                            class="fb-timeline-frame"
+                            id="fb-timeline-frame"
+                            title="โพสต์ล่าสุดจาก Facebook เพจช่างเป้ EV"
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fev.charger.chonburi.th&amp;tabs=timeline&amp;width=340&amp;height=850&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false"
+                            width="340"
+                            height="850"
+                            loading="lazy"
+                            scrolling="yes"
+                            allowfullscreen
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
                 </div>
             </div>
-
+            <p class="fb-external-note">หากเห็นเพียงชื่อเพจหรือปุ่มติดตามโดยไม่มีโพสต์ แสดงว่า Facebook ไม่ส่งฟีดมาในกรอบนี้ — <a href="https://www.facebook.com/ev.charger.chonburi.th" target="_blank" rel="noopener noreferrer">กดเปิดเพจเพื่อเลื่อนดูโพสต์ทั้งหมด</a></p>
         </div>
     </div>
 </section>
@@ -2835,6 +2912,52 @@ document.addEventListener('keydown',function(event){
             utm_campaign:(new URLSearchParams(location.search)).get('utm_campaign') || ''
         });
     });
+})();
+</script>
+
+<script>
+/* Facebook Page Plugin ใช้ความกว้าง 180-500px และไม่ปรับตาม viewport อัตโนมัติหลังโหลด */
+(function fbResponsiveTimeline() {
+    const host = document.getElementById('fb-frame-host');
+    const frame = document.getElementById('fb-timeline-frame');
+    if (!host || !frame) return;
+
+    const pageUrl = 'https://www.facebook.com/ev.charger.chonburi.th';
+    let lastSettings = '';
+    let debounce;
+    function updateFrame() {
+        const measured = Math.floor(host.getBoundingClientRect().width);
+        if (!measured) return;
+        const width = Math.max(180, Math.min(500, measured));
+        const height = window.innerWidth <= 700 ? 850 : 940;
+        const settings = width + 'x' + height;
+        if (settings === lastSettings) return;
+        lastSettings = settings;
+        const params = new URLSearchParams({
+            href: pageUrl,
+            tabs: 'timeline',
+            width: String(width),
+            height: String(height),
+            small_header: 'true',
+            adapt_container_width: 'true',
+            hide_cover: 'false',
+            show_facepile: 'false'
+        });
+        frame.width = width;
+        frame.height = height;
+        frame.style.width = width + 'px';
+        frame.style.height = height + 'px';
+        frame.src = 'https://www.facebook.com/plugins/page.php?' + params.toString();
+    }
+    function scheduleUpdate() {
+        clearTimeout(debounce);
+        debounce = setTimeout(updateFrame, 160);
+    }
+    updateFrame();
+    window.addEventListener('resize', scheduleUpdate, { passive: true });
+    if (typeof ResizeObserver !== 'undefined') {
+        new ResizeObserver(scheduleUpdate).observe(host);
+    }
 })();
 </script>
 
